@@ -1,2 +1,2 @@
-FROM nginx:1.17
-COPY . /usr/share/nginx/html
+FROM python:3.6
+RUN python -c "print('hello')"
